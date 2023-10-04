@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../tutorials/">
+        <link rel="prev" href="../explanation/">
       
       
-        <link rel="next" href="../explanation/">
+        <link rel="next" href="../sum/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>How-to Guides - In-class Documentation</title>
+        <title>Introduction - In-class Documentation</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-guides" class="md-skip">
+        <a href="#reference" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How-to Guides
+              Introduction
             
           </span>
         </div>
@@ -191,29 +191,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    How-to Guides
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../howtoguides/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -222,40 +202,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sum" class="md-nav__link">
-    Sum
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#thermostat" class="md-nav__link">
-    Thermostat
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -283,17 +229,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
@@ -306,7 +254,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Reference
@@ -317,9 +265,18 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../reference/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -328,6 +285,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -460,28 +418,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sum" class="md-nav__link">
-    Sum
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#thermostat" class="md-nav__link">
-    Thermostat
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -495,18 +431,9 @@
                   
 
 
-<h1 id="how-to-guides">How-to Guides</h1>
-<p><em>How-to guides are directions that take the reader through the steps required to solve a real-world problem. How-to guides are goal-oriented.</em></p>
-<h3 id="sum">Sum</h3>
-<p>If you want to add three numbers <strong>a</strong>, <strong>b</strong>, and <strong>c</strong>. Use the function as shown below:</p>
-<pre><code>&gt;&gt;&gt; my_adder( a, b, c )
-</code></pre>
-<p>The function ouputs the result of adding the three numbers.</p>
-<h3 id="thermostat">Thermostat</h3>
-<p>Suppose the current temperature is <strong>A</strong> degrees, but the thermostat is programmed to be at <strong>B</strong> degrees. To determine the status of the thermostat, yo can use the function as follows:</p>
-<pre><code>my_thermo_stat( A, B )
-</code></pre>
-<p>With the output, this function will tell you if the status should be either Heat, AC, or off to achieve the desired temperature. Note that the difference in temperatures should be big enough to turn the heat or AC on.</p>
+<h1 id="reference">Reference</h1>
+<p><em>Reference guides are technical descriptions of the machinery and how to operate it. Reference material is information-oriented.</em></p>
+<p>Here you will find the API for all functions. Use the left panel to browse the functions.</p>
 
 
 
